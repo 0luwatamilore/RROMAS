@@ -4,3 +4,7 @@ web application development but also explores data analytics, security, and scal
 across both MySQL and NoSQL database implementations. This comprehensive approach will
 provide a holistic understanding of how relational and non-relational databases can be utilized in
 various real-world scenarios, highlighting their unique advantages and challenges.
+
+Authors:
+Oluwatamilore Oladejo
+Elijah Okoroh
