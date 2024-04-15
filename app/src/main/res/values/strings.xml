@@ -2,4 +2,5 @@
     <string name="app_name">Flixster</string>
     <string name="todo">TODO</string>
     <string name="youtube_api_key">AIzaSyA5GHARyE7L8_9AkOfYeJ6dfb-3TEq3bdE</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
 </resources>

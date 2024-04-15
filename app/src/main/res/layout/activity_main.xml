@@ -6,14 +6,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <Button
+        android:id="@+id/sqlbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="sql"
+        android:onClick="btnClick"
+        />
 
+    <!--        android:layout_alignParentTop="true"-->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvMovies"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_button"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_marginStart="2dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="10dp"
         android:background="@color/purple_200" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:layout_below="@id/sqlbutton"
+        android:onClick="loginClick"/>
 </RelativeLayout>
